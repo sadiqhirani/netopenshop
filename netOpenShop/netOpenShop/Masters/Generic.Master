@@ -5,16 +5,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/Content/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css"/>
+    <asp:ContentPlaceHolder ID="masterHeadContents" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
+        <asp:ContentPlaceHolder ID="masterBodyContents" runat="server">
         </asp:ContentPlaceHolder>
     </div>
+        <script type="text/javascript" src="~/Scripts/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/Scripts/modernizr-2.8.3.js"></script>
+        <asp:ContentPlaceHolder runat="server" ID="masterScriptContents">
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
