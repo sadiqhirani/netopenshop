@@ -17,7 +17,7 @@
         <asp:ContentPlaceHolder ID="masterBodyContents" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-        <script type="text/javascript" src="~/Scripts/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="~/Scripts/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
         <script type="text/javascript" src="~/Scripts/modernizr-2.8.3.js"></script>
         <asp:ContentPlaceHolder runat="server" ID="masterScriptContents">
